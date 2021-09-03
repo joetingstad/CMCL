@@ -1,0 +1,86 @@
+.MainForm {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+.subMain {
+    border-top: solid thin #676767;
+    padding-top: 10%;
+    display: flex;
+}
+
+.MainDiv {
+    border-color: #676767;
+    border-style: solid;
+    border-width: thin;
+    padding: 0% 5% 10% 5%;
+    border-radius: 2px;
+    margin: 10%;
+}
+
+.titleDiv {
+    padding-top: 5%;
+}
+
+.contentDiv {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.Label {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.Username {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #5a5a5a;
+}
+
+.logout {
+    background-color: #bdbdbd;
+    color: #292929;
+    border-color: #676767;
+    border-style: solid;
+    border-width: thin;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.logoutDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15%;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: solid thin;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin: 5px;
+}
+  
+button:hover {
+    background-color: #43b339;
+    color: white;
+    border-color: white;
+    box-shadow: 0 3px 3px rgba(34, 25, 25, 0.4);
+}

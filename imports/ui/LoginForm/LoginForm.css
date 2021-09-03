@@ -1,0 +1,59 @@
+.loginform_navigation_items a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .loginform_navigation_items a:hover,
+  .loginform_navigation_items a:active {
+    color: orange;
+  }
+
+.loginform a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .loginform a:hover,
+  .loginform a:active {
+    color: white;
+  }
+
+button {
+  color: black;
+  background-color: white;
+  border: solid thin;
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button:hover {
+  background-color: #43b339;
+  color: white;
+  border-color: white;
+  box-shadow: 0 3px 3px rgba(34, 25, 25, 0.4);
+}
+
+#unpw {
+  background-color: white;
+}
+
+#unpw:focus {
+  background-color: white;
+  border-color: #43b339;
+}
+
+#pwreset,
+#login,
+#signup {
+  width: 250px;
+}
+
+#cmclGradient {
+  background: -webkit-linear-gradient(45deg, #43b339 0%, #43b339 33%, #f6eb22 33%, #f6eb22 66%, #f36060 66%, #f36060 99%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

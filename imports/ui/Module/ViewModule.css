@@ -1,0 +1,91 @@
+.module-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.module-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.module-box {
+    display: flex;
+    flex-direction: column;
+    background-color: Gainsboro;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.module-header {
+    height: 50px;
+    background-color: #43b339;
+    justify-content: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.transparent {
+    display: inline-block;
+    background-color: transparent;
+    height: 100%;
+    border: transparent;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.video-holder {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button {
+    align-self: center;
+    justify-self: center;
+    color: black;
+    background-color: rgb(243, 241, 241);
+    border: solid thin;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    align-self: center;
+    font-weight: bold;
+  }
+
+  .button:hover {
+    background-color: #43b339;
+    color: white;
+    border-color: white;
+    box-shadow: 0 3px 3px rgba(34, 25, 25, 0.4);
+  }
+
+  .button-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,120 @@
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .signup-form-box {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .signup-header {
+    align-self: center;
+  }
+
+  .signup-header-box {
+    height: 50px;
+    background-color: #43b339;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: -25px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .signup-row {
+    flex-direction: row;
+    display: flex; 
+  }
+
+  .signup-form > div {
+    margin: 8px;
+  }
+  
+  .signup-form > div > label {
+    font-weight: bold;
+  }
+
+  .signup-label {
+    font-weight: bold;
+  }
+  
+  .signup-form > div  > input {
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px 6px;
+    background: transparent;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 1em;
+    margin-right: 16px;
+    margin-top: 4px;
+    background-color: rgb(243, 241, 241);;
+  }
+
+  .signup-input  {
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px 6px;
+    background: transparent;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 1em;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    background-color: rgb(243, 241, 241);
+  }
+  
+  .signup-form > div > input:focus {
+    outline: 0;
+    background-color: white;
+    border-color: #43b339;
+  }
+  
+  .signup-button {
+    color: black;
+    background-color: rgb(243, 241, 241);
+    border: solid thin;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    align-self: center;
+  }
+
+  button:hover {
+    background-color: #43b339;
+    color: white;
+    border-color: white;
+    box-shadow: 0 3px 3px rgba(34, 25, 25, 0.4);
+  }
+
+  .agegroup-select {
+    margin-bottom: 15px;
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+  
